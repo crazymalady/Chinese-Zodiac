@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inter:400,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*--main-radius: 5px;
+  --main-padding: 5px;
+  --main-width: 1200px;*/
+}
+
+body {
+  /*font-family: 'Ribeye', cursive;*/
+  font-family: "Inter", sans-serif;
+  /*font-family: 'Akaya Telivigala', cursive;*/
+}
+
+/*Scrollbar------------------------*/
+html{
+  overflow-x: hidden;
+}
+/*Scrollbar------------------------*/
+html{
+  --scrollbarBG:#19192E;/*#CFD8DC;*/
+  --thumbBG: #7e7d74;/*#90A4AE;*/
+  
+}
+body::-webkit-scrollbar{
+  width: 15px;
+}
+body{
+  scrollbar-width: thick;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track{
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb{
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 0.3fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1.5fr 5fr 0.8fr;
+  
+  /*working:
+  grid-template-columns: 0.3fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1.5fr 5fr 0.8fr;
+
+  gridtemplate
+      "header header header header"
+    "buttonNav textNav textNav sideBanner"
+    "buttonNav main main sideBanner"
+    "footer footer footer footer";
+  */
+  grid-template-areas:
+    "header header header header"
+    "buttonNav textNav textNav textNav"
+    "buttonNav main main main"
+    "footer footer footer footer";
+  font-size: 12px;
+  text-align: center;
+}
+
+.zodiacSigns h1{
+  font-family: 'Ribeye', cursive;
+  color: gold;
+  text-align: center;
+  padding-top: 44px;
+  padding-bottom: 50px;
+}
+
+/*AlphabetizeSigns.php*/
+.justify{
+  color: black;
+  background-color: #ff0d;
+  border: white solid 5px;
+}
+.justify input{
+  width: 1150px;
+  font-size: 20px;
+  outline: none;
+  border-radius: 20px;
+  border: white solid 3px;
+}
+.sortSubmit input{
+  width: 200px;
+  font-size: 20px;
+  outline: none;
+  color: rgb(92, 92, 6);
+  border: solid 1px rgb(219, 219, 7);
+  border-radius: 0px;
+  background: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.sortSubmit input:hover{
+  cursor: pointer;
+  background-color: #ff0;
+  color: rgb(92, 92, 6);
+}
+#gallery a:hover{
+  cursor: pointer;
+}
+.zodiacSigns{
+  text-align: center;
+  padding: 0 50px 100px 50px;
+  background-color: #bd1313; 
+}
+
+.zodiacSigns img{
+  height: 70px;
+  border: solid white 3px;
+  border-radius: 80px;
+}
+
+.zodiacSigns td{
+  background-color: antiquewhite;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.zodiacSigns tr{
+  background-color: #ff0d;
+}
+
+header {
+  background: #7c0000;
+  grid-area: header;
+  text-align: center;
+  /*border-radius: var(--main-radius);*/
+  /*padding-top: var(--main-padding);*/
+}
+
+header img{
+  /*display: flex;*/
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.sideBanner{
+  grid-area: sideBanner;
+}
+
+.sideBanner img{
+  /*display: flex;*/
+  width: 150px;
+  height: 500px;
+  text-align: center;
+}
+
+.text-nav {
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  grid-area: textNav;
+  /*border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+  width: 100%;*/
+  /*width: var(--main-width);*/
+  width: 1200px;
+}
+
+.text-nav a{
+  flex-direction: row;
+  text-align: center;
+  display: block;
+  font-family: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 1rem;
+
+  /* align-content: stretch;*/
+}
+
+main {
+  /*background: url("/assets/stars2.jpg") no-repeat center;*/
+  /*background: linear-gradient(10deg, #19192E 0%, rgba(5, 3, 0, 0) 100%);*/
+  grid-area: main;
+  /*border-radius: var(--main-radius);
+  padding-top: var(--main-padding);*/
+  /*margin-top: -500px;*/
+  background-color: white;
+}
+
+main p{
+  font-size: 20px;
+  /*background-color: goldenrod;
+  color: rgb(238, 190, 69);*/
+  text-align: justify;
+  overflow-x: hidden;
+  padding: 0 50px 10px 50px;
+}
+
+.button-nav {
+  display: flex;
+  flex-direction: column;
+  /*background: #fff;*/
+  /*background: rgb(212, 206, 118);*/
+  background: linear-gradient(90deg, #bd1313 0%, rgba(248, 177, 85, 0) 100%);
+  grid-area: buttonNav;
+  border-radius: var(--main-radius);
+  padding-top: 20px;
+}
+
+.button-nav img{
+  height: 46px;
+  padding: 7px 5px 10px 5px;
+
+}
+
+.button-nav img:hover{
+  cursor: pointer;
+  /*border: 1px dashed goldenrod;*/
+}
+
+#content1 {
+  background: #6fffd2;
+  grid-area: content1;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+}
+
+#content2 {
+  background: #64ffda;
+  grid-area: content2;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+}
+
+#content3 {
+  background: #73ffba;
+  grid-area: content3;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+}
+p .zodiacDescription{
+ font-size: 500px;
+}
+h2{
+  padding: 5px;
+}
+footer {
+  font-size: 15px;
+  background: #0b0b0b;
+  grid-area: footer;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+  text-align: center;
+  color: gray;
+}
+/*footer{
+ border: solid gray 1px; 
+}*/
+footer img{
+  height: 45px;
+  background-color: none;
+  padding: 5px 50px 0 -20px;
+  margin: 0 0 0 -50px;
+}
+footer span{
+  margin-top: -50px;
+  padding: 0 0px 0 10px;
+}
+
+/*footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+    "logo proverbs source copyright";
+  height: 10vh;
+  background: blue;
+  grid-area: footer;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+  text-align: center;
+  color: gray;
+  /*margin: 70px 0 0 0;*/
+/*}
+footer .wrapper{
+  display: flex;
+  /*padding: 0 20px 0 50px;*/
+/*}
+footer .proverbs, .source, .copyright{
+  padding-left: 0;
+  /*margin-top: -40px;*/
+/*}
+footer img{
+  height: 60px;
+  grid-area: logo;
+  padding: 0 0 0 50px;
+}*/
+/*footer .proverbs{
+  /*margin: -10px 20px 0 50px;*/
+ /* grid-area: proverbs;
+}
+footer .copyright{
+  grid-area: copyright;
+}
+footer .source{
+  grid-area: source;
+}*/
+
+@media only screen and (max-width: 550px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+    grid-template-areas:
+      "header"
+      "buttonNav"
+      "main"
+      "footer";
+  }
+}

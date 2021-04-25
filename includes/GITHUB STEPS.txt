@@ -1,0 +1,40 @@
+Problem: 
+"fatal: Could not read from remote repository. Please make sure you have the correct access rights and the repository exists."
+
+Solution:
+>git init
+>git clone https//
+>CLONED!
+
+Add/Change a file in that clone:
+And push it to the repo again.
+> git status
+> git add .
+ -> To add it to track files
+
+-------------------------------------
+1. Initialize the git 
+   > git init .
+2. Add the files you want to add
+   > git add .
+3. You are on master branch already
+   > git status
+4. Commit the files you want to add
+   > git commit -m "Added Files"
+5. Copy the URL in repo and Add Remote Origin
+   > git remote add origin https://...
+6. Check if origin is already there
+   > git remote -v
+7. Add upstream
+   > git remote add upstream httpsss.
+   > git remote -v
+8. 
+
+How to push code (file/folder) from local to GitHub repository from scratch
+https://www.youtube.com/watch?v=xwlQimbwJJE
+
+How to manage multiple git accounts
+https://www.youtube.com/watch?v=lLgWWtOk7gk
+
+Managing Username/Passwords on multiple GitHub accounts (Windows) - HTTPS
+https://www.youtube.com/watch?v=2MGGJtTH0bQ&t=228s

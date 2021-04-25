@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+    "banner banner"
+    "buttonNav textNav"
+    "buttonNav content"
+    "footer footer";
+}
+  /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr .1fr;
+  grid-template-areas:
+    "flogo grp1 grp2 grp3 grp4"
+    "footer-end footer-end footer-end footer-end footer-end";
+  column-gap: 87px;*/
+}
+
+.header img{
+  /*text-align: center;*/
+  grid-area: banner;
+  font-size: 500px;
+}
+
+nav{
+  background-color: pink;
+}
+
+nav .text-nav{
+  grid-area: textNav
+  /*position: relative;*/
+  /**float: right;*/
+  background-color: gray;
+}
+
+nav .button-nav{
+  grid-area: buttonNav
+  /**float: left;*/
+  /*position: absolute;*/
+  background-color: whitesmoke;
+
+  /*display: flex;
+  flex-direction: column;*/
+}
+
+nav .button-nav img{
+  /*justify-content: space-between;
+  margin: 0 5px 5px 5px;
+  padding: 0 5px 5px 5px;
+  width: 200px;*/
+}
+
+nav .button-nav img:hover{
+  cursor: pointer;
+}
+
+main .dynamic-content{
+  grid-area: content;
+  /*display: flex;
+  flex-wrap: wrap;*/
+  background-color: beige;
+}
+
+footer{
+  grid-area: footer;  
+  background-color: blanchedalmond;
+}

@@ -1,0 +1,54 @@
+html{
+  overflow: hidden;
+  font-family: Arial;
+}
+
+header .img{
+  display: flex;
+  width: 100%;
+  height: 80pt;
+}
+
+body{
+  /*background-color: rgb(221, 233, 113); yellow*/
+  background-color:  #fff;
+}
+
+h1{
+  margin: 0 0 0 15px;
+  text-align: center;
+  /*background-color: rgb(196, 207, 91); yellow*/
+  /*color: rgb(80, 88, 2); dark yellow*/
+  color: #ac0909;
+  background-color: #fff;
+}
+
+h2{
+  text-align: center;
+}
+
+p{
+  margin: 0px 0 0 15px;
+  font-weight: bold;
+  color: black;
+  /*border: solid rgb(80, 88, 2) 3px;*/
+  font-size: 17px;
+}
+
+span{  
+  font-weight: bold;
+  color: black;
+  padding: 40%;
+}
+
+footer{
+  font-weight: bold;
+  margin: 0px 0 50px 15px;
+  text-align: center;
+  color: #ac0909;
+  background-color: #fff;
+}
+
+dP{
+  text-align: center;
+}
