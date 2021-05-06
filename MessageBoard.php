@@ -8,11 +8,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Message Board</title>
 
-  <link rel="stylesheet" href="style3.css"/>
+  <link rel="stylesheet" href="styles/style.css"/>
 </head>
 <body>
-<h1>Message Board</h1>
-<?php
+<div class="message" style="text-align:center">
+  <h1>Message Board</h1>
+
+  <?php
 if ( (!file_exists("MessageBoard/messages.txt") ) || ( filesize("MessageBoard/messages.txt") == 0) ){
   echo "<p>There are no messages posted.</p>\n";
 }
@@ -38,13 +40,12 @@ else {
  Post New Message</a>
 </p>
 
-
+<br><br><br><br><br><br><br>
+</div>
 </body>
 <footer>
-  <small>
-    by: Jennifer A. Lacaste </br>
-    WEBSYS2-Mia Lyn Bungay </br>
-    &copy; 06 March 2021
-  </small>
+  <?php 
+    include('includes/inc_footer.php');
+  ?>
 </footer>
 </html>

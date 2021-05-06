@@ -5,16 +5,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dice Roll</title>
+  <title>Number Form</title>
 
-  <link rel="stylesheet" href="style3.css"/>
+  <link rel="stylesheet" href="styles/style.css"/>
 </head>
 <body>
-<h1>
-Code Demonstration for PHP<sup>While Statement</sup></h1>
+<div class="strings" style="text-align:center">
+  <h1>While Statement: Number Form</h1>
 
-
-<?php
+  <?php
   $DisplayForm = TRUE;
   $Number = "";
 
@@ -49,12 +48,13 @@ Code Demonstration for PHP<sup>While Statement</sup></h1>
     again?</a></p>\n";
    }
   ?> 
+  
+<br><br><br><br><br><br><br>
+</div>
 </body>
 <footer>
-  <small>
-    by: Jennifer A. Lacaste </br>
-    WEBSYS2-Mia Lyn Bungay </br>
-    &copy; 27 February 2021
-  </small>
+  <?php 
+    include('includes/inc_footer.php');
+  ?>
 </footer>
 </html>

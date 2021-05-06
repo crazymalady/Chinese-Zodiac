@@ -11,17 +11,9 @@
 </head>
 <body>
 <form action="ZodiacGallery.php" method="post">
-<div class="zodiacSigns"> <!--connected to style.css, create duplicate of this if edit the sizes-->
+<div class="zodiacGal"> 
     <h1>Zodiac Gallery</h1>
-    <div class="justify">
-    <!--Create a PHP script with an associative array that uses image fi lenames as the keys and image captions as the values. Use the keys and
-    values from the array to create a thumbnail gallery of images in which
-    you display a small hyperlinked image to open a larger version of
-    the image. Use the zodiac sign images that you saved in your Images
-    folder in Chapter 1. Set a width and height for the thumbnails that are
-    less than half of the height and width of the images. Format the display of the thumbnail gallery.
---> </div>
-    <br/><br>
+    <h2 style="color:white">CLICK ON THE ZODIAC</h2>
 </form>  
     <?php 
       $zodiac = array(
@@ -215,15 +207,19 @@ if(isset($_POST['gallery_x']) && isset($_POST['gallery_y']) != '') {
     }*/
   }
 ?>
-</div>
-</body>
 
-<br/><br><br/><br><br/><br><br/>
+</body>
+<!--
 <footer>
   <small>
     by: Jennifer A. Lacaste </br>
     WEBSYS2-Mia Lyn Bungay </br>
     &copy; 06 April 2021
   </small>
+</footer>-->
+<footer>
+  <?php 
+    include('includes/inc_footer.php');
+  ?>
 </footer>
 </html>

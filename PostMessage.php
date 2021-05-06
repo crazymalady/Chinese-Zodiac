@@ -1,4 +1,3 @@
-<!--Needs MessageBoard subdirectory-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.org/1999/xhtml" lang="en">
@@ -8,10 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Post Message</title>
 
-  <link rel="stylesheet" href="style3.css"/>
+  <link rel="stylesheet" href="styles/style.css"/>
 </head>
 <body>
-<?php
+<div class="strings" style="text-align:center">
+  <?php
   if (isset($_POST['submit'])) {
     $Subject = stripslashes($_POST['subject']); //stripslashes
     $Name = stripslashes($_POST['name']);
@@ -93,12 +93,13 @@
 <p>
 <a href="MessageBoard.php">View Messages</a>
 </p>
+
+<br><br><br><br><br><br><br>
+</div>
 </body>
 <footer>
-  <small>
-    by: Jennifer A. Lacaste </br>
-    WEBSYS2-Mia Lyn Bungay </br>
-    &copy; 06 March 2021
-  </small>
+  <?php 
+    include('includes/inc_footer.php');
+  ?>
 </footer>
 </html>

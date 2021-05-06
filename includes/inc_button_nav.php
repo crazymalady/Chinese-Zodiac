@@ -1,6 +1,6 @@
   <nav>
     <section class="button-nav">
-      <a href=index.php?page="home_page" class="btn-home">
+      <a href="index.php?page=home_page class=btn-home">
         <img class="btn" onmouseover="this.src='assets/HomePage_Lacaste8.svg'" onmouseout="this.src='assets/HomePage_Lacaste10.svg'" src="assets/HomePage_Lacaste10.svg" alt="HomePage Button" title="Home Page"/>
       </a>
       <a href="index.php?page=site_layout">

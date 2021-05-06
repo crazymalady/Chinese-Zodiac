@@ -7,9 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Birth Year</title>
 
-  <link rel="stylesheet" href="style2.css"/>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+<div class="zodiacSignsBday"> 
 <h1>
 Your Chinese Zodiac Sign<sup>If Else Statement</sup></h1>
 
@@ -32,14 +33,17 @@ Your Chinese Zodiac Sign<sup>If Else Statement</sup></h1>
   function displayForm($Year){
     ?><!--php break-->
    <form action="<?php echo $_SERVER['SCRIPT_NAME']; ?>" method = "post">
-    <p><h2>
-      Your Birth Year: <input type="text" name="Year" value="<?php echo $Year; ?>"/>
-    </p>
-
-    <p>
-      <input type="reset" value="Clear Form"/>&nbsp; &nbsp;
-      <input type="submit" name="Submit" value="Show Me My Sign" />
-    </p>
+      <h2 style="color:white">BIRTH YEAR | ZODIAC CALCULATOR!</h2>
+      <div class="justifyField">
+        <br>
+        Enter your birth year to check your zodiac: <br><input type="text" placeholder="1999" name="Year" value="<?php echo $Year; ?>"/>
+        <br><br>
+      </div>
+      <br/><br>
+      <div class="sortSubmit">
+        <input type="reset" value="Clear Form"/>&nbsp; &nbsp;
+        <input type="submit" name="Submit" value="Show Me My Sign" />
+      </div>
    </form>
    
    <?php
@@ -166,13 +170,19 @@ Your Chinese Zodiac Sign<sup>If Else Statement</sup></h1>
           displayResults($Year);      
       }
 ?>
-
+<br><br><br><br><br><br><br>
+</div>
 </body>
 <footer>
+  <?php 
+    include('includes/inc_footer.php');
+  ?>
+</footer>
+<!--<footer>
   <small>
     by: Jennifer A. Lacaste </br>
     WEBSYS2-Mia Lyn Bungay </br>
     &copy; 23 March 2021
   </small>
-</footer>
+</footer>-->
 </html>

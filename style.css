@@ -1,6 +1,7 @@
 html{
   overflow: hidden;
   font-family: Arial;
+  scroll-behavior: smooth;
 }
 
 header .img{
@@ -10,7 +11,7 @@ header .img{
 }
 
 body{
-  background-color: rgb(221, 233, 113);
+  background-color: #bd1313;
   /*background-color: #d63031;*/
 }
 

@@ -1,9 +1,9 @@
 <link rel="stylesheet" href="styles/style.css"/>
 <footer>
  <div class="footerWrapper">
-  <img class="myLogo" src="assets/logo_Official YTB Logo.png" alt="Jennie Cuddles Logo"/>
+  <a href="https://github.com/crazymalady" target=_><img class="myLogo" src="assets/logo_Official YTB Logo.png" alt="Jennie Cuddles Logo"/></a>
   <span class="proverbs"><!--style="font-style:italic"-->
-  |  
+  
   <?php 
     $ProverbFileName = "includes/proverbs.txt";
 
@@ -16,21 +16,20 @@
     }
     else{
       $i = rand(1, count($ProverbArray) - 1);
-      echo htmlentities(trim($ProverbArray[$i])) . "\n";
+      echo "&#x2770;" . htmlentities(trim($ProverbArray[$i])) . "&#x2771;" . "\n";
       /*echo "&ldquo;" . htmlentities(trim($ProverbArray[$i])) . "&rdquo;\n";*/
     }
   ?>
-  |
-  <span class="source">source: https://examples.yourdictionary.com/examples-of-proverbs.html</span>
+  <small><br>
+  <span class="source">&#x273F; source: https://examples.yourdictionary.com/examples-of-proverbs.html &#x273F;</span>
+  </small>
   <br/><br/>
-  <?php 
-    
-    for($i=0; $i<3; ++$i){
-      $randomed = rand($i+1, 4);
-      echo "<img src='assets/dragon$randomed.png' alt='Dragon: $i+1'/>" . "</th>\n";
+  <?php     
+    for($i=0; $i<1; ++$i){
+      $randomed = rand($i+1, 5);
+      echo "<img class='imgDragons' src='assets/dragon_$randomed.png' title='Surprise Me!'/>" . "</th>\n";
     }
   ?>
-  |
-  <span class="copyright">&copy; Copyright 2021</span>
+  <small><span class="copyright">&#x269D;&copy;Copyright WebSys2, Ms./Mrs. Bungay 2021&#x269D; <br>Designed and Developed by: Jennifer A. Lacaste</span></small>
   </div>
 </footer>

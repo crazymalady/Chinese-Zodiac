@@ -11,47 +11,45 @@
 </head>
 <body>
   <div class="zodiacSigns">
-  <h1>Chinese Zodiac For Loop</h1>
-  
-  <?php 
-    $signNames = array(
-      "Rat",
-      "Ox",
-      "Tiger",
-      "Rabbit",
-      "Dragon",
-      "Snake",
-      "Horse",
-      "Sheep",
-      "Monkey",
-      "Rooster",
-      "Dog",
-      "Pig");
-    echo "<table>\n";
-    echo "<tr>\n";
-    for($i=0; $i<12; ++$i){
-      echo "<th>" . $signNames[$i] . "<br />\n"; 
-      echo "<img src='assets/$signNames[$i]_Lacaste.png' alt='$signNames[$i]'/>" . "</th>\n";
-      /*echo "<img src='assets/$signNames[$i]_Lacaste.png'/>" . "</th>\n";*/
-    }
-    for($i = 1912; $i<=2021; ++$i){
-      if((($i-1912)%12)==0){
-        echo "</tr>\n";
-        echo "<tr>\n";
+    <h1>Chinese Zodiac For Loop</h1>
+    
+    <?php 
+      $signNames = array(
+        "Rat",
+        "Ox",
+        "Tiger",
+        "Rabbit",
+        "Dragon",
+        "Snake",
+        "Horse",
+        "Sheep",
+        "Monkey",
+        "Rooster",
+        "Dog",
+        "Pig");
+      echo "<table>\n";
+      echo "<tr>\n";
+      for($i=0; $i<12; ++$i){
+        echo "<th>" . $signNames[$i] . "<br />\n"; 
+        echo "<img src='assets/$signNames[$i]_Lacaste.png' alt='$signNames[$i]'/>" . "</th>\n";
+        /*echo "<img src='assets/$signNames[$i]_Lacaste.png'/>" . "</th>\n";*/
       }
-      echo "<td>$i</td>";
-    }
-    echo "</tr>\n";
-    echo "</table>\n";
-  ?>
+      for($i = 1912; $i<=2021; ++$i){
+        if((($i-1912)%12)==0){
+          echo "</tr>\n";
+          echo "<tr>\n";
+        }
+        echo "<td>$i</td>";
+      }
+      echo "</tr>\n";
+      echo "</table>\n";
+    ?>
 
   </div>
 </body>
 <footer>
-  <small>
-    by: Jennifer A. Lacaste </br>
-    WEBSYS2-Mia Lyn Bungay </br>
-    &copy; 16 February 2021
-  </small>
+  <?php 
+    include('includes/inc_footer.php');
+  ?>
 </footer>
 </html>

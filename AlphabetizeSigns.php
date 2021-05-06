@@ -10,8 +10,6 @@
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  
-
 <form action = "AlphabetizeSigns.php" method = "post">
   <div class="zodiacSigns"> <!--connected to style.css, create duplicate of this if edit the sizes-->
     <h1>Alphabetize Signs</h1>
@@ -25,6 +23,7 @@
     <div class="sortSubmit">
         <input type = "submit" name = "submit" value = "Sort">
     </div>
+    <br/><br><br/><br/>
   </div>
   
 </form>
@@ -71,13 +70,9 @@
    */
 ?>
 </body>
-
-<br/><br><br/><br><br/><br><br/>
 <footer>
-  <small>
-    by: Jennifer A. Lacaste </br>
-    WEBSYS2-Mia Lyn Bungay </br>
-    &copy; 06 April 2021
-  </small>
+  <?php 
+    include('includes/inc_footer.php');
+  ?>
 </footer>
 </html>

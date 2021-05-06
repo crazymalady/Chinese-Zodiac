@@ -8,9 +8,7 @@
 }
 
 :root {
-  /*--main-radius: 5px;
-  --main-padding: 5px;
-  --main-width: 1200px;*/
+  --font-main: "Inter", sans-serif;
 }
 
 body {
@@ -27,7 +25,6 @@ html{
 html{
   --scrollbarBG:#19192E;/*#CFD8DC;*/
   --thumbBG: #7e7d74;/*#90A4AE;*/
-  
 }
 body::-webkit-scrollbar{
   width: 15px;
@@ -78,6 +75,52 @@ body::-webkit-scrollbar-thumb{
   padding-bottom: 50px;
 }
 
+.strings{
+  text-align: center;
+  padding: 0 50px 100px 50px;
+  color: skyblue;
+  background-color: #bd1313; 
+}
+
+.message{
+  text-align: center;
+  padding: 0 50px 100px 50px;
+  color: black;
+  background-color: #bd1313; 
+}
+
+.message h1{
+  font-family: 'Ribeye', cursive;
+  color: gold;
+  text-align: center;
+  padding-top: 44px;
+  padding-bottom: 50px;
+}
+
+.strings h1{
+  font-family: 'Ribeye', cursive;
+  color: gold;
+  text-align: center;
+  padding-top: 44px;
+  padding-bottom: 50px;
+}
+
+.zodiacSignsBday h1{
+  font-family: 'Ribeye', cursive;
+  color: gold;
+  text-align: center;
+  padding-top: 44px;
+  padding-bottom: 50px;
+}
+
+.zodiacGal h1{
+  font-family: 'Ribeye', cursive;
+  color: gold;
+  text-align: center;
+  padding-top: 44px;
+  padding-bottom: 50px;
+}
+
 /*AlphabetizeSigns.php*/
 .justify{
   color: black;
@@ -88,8 +131,23 @@ body::-webkit-scrollbar-thumb{
   width: 1150px;
   font-size: 20px;
   outline: none;
-  border-radius: 20px;
-  border: white solid 3px;
+  border-radius: 1px;
+  border: rgba(209, 209, 3, 0.867) solid 3px;
+}
+.justifyField{
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  color: black;
+  background-color: #ff0d;
+  border: white solid 5px;
+}
+.justifyField input{
+  width: 200px;
+  font-size: 20px;
+  outline: none;
+  border-radius: 1px;
+  border: rgba(209, 209, 3, 0.867) solid 3px;
 }
 .sortSubmit input{
   width: 200px;
@@ -99,8 +157,8 @@ body::-webkit-scrollbar-thumb{
   border: solid 1px rgb(219, 219, 7);
   border-radius: 0px;
   background: #fff;
-  text-transform: uppercase;
   font-weight: bold;
+  font-family: var(--font-main);
 }
 .sortSubmit input:hover{
   cursor: pointer;
@@ -115,19 +173,26 @@ body::-webkit-scrollbar-thumb{
   padding: 0 50px 100px 50px;
   background-color: #bd1313; 
 }
-
+.zodiacSignsBday{
+  text-align: center;
+  padding: 0 0px 0px 0px;
+  background-color: #bd1313; 
+}
+.zodiacGal{
+  text-align: center;
+  padding: 0 0px 0px 0px;
+  background-color: #bd1313; 
+}
 .zodiacSigns img{
   height: 70px;
   border: solid white 3px;
   border-radius: 80px;
 }
-
 .zodiacSigns td{
   background-color: antiquewhite;
   text-align: center;
   padding-bottom: 5px;
 }
-
 .zodiacSigns tr{
   background-color: #ff0d;
 }
@@ -136,12 +201,9 @@ header {
   background: #7c0000;
   grid-area: header;
   text-align: center;
-  /*border-radius: var(--main-radius);*/
-  /*padding-top: var(--main-padding);*/
 }
 
 header img{
-  /*display: flex;*/
   width: 100%;
   height: auto;
   text-align: center;
@@ -152,7 +214,6 @@ header img{
 }
 
 .sideBanner img{
-  /*display: flex;*/
   width: 150px;
   height: 500px;
   text-align: center;
@@ -163,10 +224,6 @@ header img{
   flex-direction: row;
   background: #fff;
   grid-area: textNav;
-  /*border-radius: var(--main-radius);
-  padding-top: var(--main-padding);
-  width: 100%;*/
-  /*width: var(--main-width);*/
   width: 1200px;
 }
 
@@ -178,24 +235,15 @@ header img{
   text-decoration: none;
   font-weight: bold;
   margin: 1rem;
-
-  /* align-content: stretch;*/
 }
 
 main {
-  /*background: url("/assets/stars2.jpg") no-repeat center;*/
-  /*background: linear-gradient(10deg, #19192E 0%, rgba(5, 3, 0, 0) 100%);*/
   grid-area: main;
-  /*border-radius: var(--main-radius);
-  padding-top: var(--main-padding);*/
-  /*margin-top: -500px;*/
   background-color: white;
 }
 
 main p{
   font-size: 20px;
-  /*background-color: goldenrod;
-  color: rgb(238, 190, 69);*/
   text-align: justify;
   overflow-x: hidden;
   padding: 0 50px 10px 50px;
@@ -204,8 +252,6 @@ main p{
 .button-nav {
   display: flex;
   flex-direction: column;
-  /*background: #fff;*/
-  /*background: rgb(212, 206, 118);*/
   background: linear-gradient(90deg, #bd1313 0%, rgba(248, 177, 85, 0) 100%);
   grid-area: buttonNav;
   border-radius: var(--main-radius);
@@ -215,12 +261,10 @@ main p{
 .button-nav img{
   height: 46px;
   padding: 7px 5px 10px 5px;
-
 }
 
 .button-nav img:hover{
   cursor: pointer;
-  /*border: 1px dashed goldenrod;*/
 }
 
 #content1 {
@@ -263,9 +307,20 @@ footer {
 }*/
 footer img{
   height: 45px;
+  width: 45px;
   background-color: none;
   padding: 5px 50px 0 -20px;
   margin: 0 0 0 -50px;
+}
+footer .myLogo{
+  border-radius: 0% 0% 20% 20%;
+}
+footer .myLogo:hover{
+  border: #fff 2px solid;
+}
+footer .imgDragons{
+  border: solid gray 2px;
+  border-radius: 70% 60% 10% 70% / 60% 40% 10% 10%;
 }
 footer span{
   margin-top: -50px;

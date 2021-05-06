@@ -1,4 +1,4 @@
-"The apple doesn’t fall far from the tree."
+﻿"The apple doesn’t fall far from the tree."
 
 "Early to bed and early to rise, makes a man healthy, wealthy and wise."
 
@@ -7,3 +7,7 @@
 "Laugh and the world laughs with you, weep and you weep alone."
 
 "Tis better to have loved and lost, than never to have loved at all."
+
+"The apple doesn’t fall far from the tree."
+
+"More errors to come! ヅ - Jennifer Lacaste."
