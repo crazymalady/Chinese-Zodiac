@@ -32,7 +32,7 @@ The browser displays the user's chinese zodiac sign and the associated zodiac im
 <br>
 <small>
 <a href="BirthYear_ifelse.php">[&nbsp;Test&nbsp;the&nbsp;Script&nbsp;]</a>
-<a href="ShowSourceCode.php?source_file=BirthYear_ifelse.php">[&nbsp;View&nbsp;Source&nbsp;Code&nbsp;]</a>
+<a href="https://github.com/crazymalady/Chinese-Zodiac/blob/main/BirthYear_ifelse.php" target=_>[&nbsp;View&nbsp;Source&nbsp;Code&nbsp;]</a>
 </small>
 
 <span id="switch"></span>
@@ -47,7 +47,7 @@ display the zodiac sign details. This also uses associative arrays.
 <br>
 <small>
 <a href="ZodiacGallery.php">[&nbsp;Test&nbsp;the&nbsp;Script&nbsp;]</a>
-<a href="ShowSourceCode.php?source_file=BirthYear_switch.php">[&nbsp;View&nbsp;Source&nbsp;Code&nbsp;]</a>
+<a href="https://github.com/crazymalady/Chinese-Zodiac/blob/main/ZodiacGallery.php" target=_>[&nbsp;View&nbsp;Source&nbsp;Code&nbsp;]</a>
 </small>
 
 <span id="while_loop"></span>
@@ -62,7 +62,7 @@ This page uses <span class="code">while</span>loop to calculate the square of th
 <br>
 <small>
 <a href="NumberForm.php">[&nbsp;Test&nbsp;the&nbsp;Script&nbsp;]</a>
-<a href="ShowSourceCode.php?source_file=BirthYear_for.php">[&nbsp;View&nbsp;Source&nbsp;Code&nbsp;]</a>
+<a href="https://github.com/crazymalady/Chinese-Zodiac/blob/main/NumberForm.php" target=_>[&nbsp;View&nbsp;Source&nbsp;Code&nbsp;]</a>
 </small>
 
 
@@ -77,7 +77,7 @@ This page uses <span class="code">for</span>loop to display all of the years fro
 <br>
 <small>
 <a href="Chinese_Zodiac_for_loop.php">[&nbsp;Test&nbsp;the&nbsp;Script&nbsp;]</a>
-<a href="ShowSourceCode.php?source_file=BirthYear_for.php">[&nbsp;View&nbsp;Source&nbsp;Code&nbsp;]</a>
+<a href="https://github.com/crazymalady/Chinese-Zodiac/blob/main/Chinese_Zodiac_for_loop.php" target=_>[&nbsp;View&nbsp;Source&nbsp;Code&nbsp;]</a>
 </small>
 
 

@@ -17,7 +17,7 @@
   <br>
   <small>
   <a href="SimilarNames.php">[Test the Script]</a>
-  <a href="ShowSourceCode.php?source_file=SimilarNames.php">[View Source Code]</a>
+  <a href="https://github.com/crazymalady/Chinese-Zodiac/blob/main/SimilarNames.php" target=_>[View Source Code]</a>
   </small>
 
   <br><br>
@@ -27,7 +27,7 @@
   <br>
   <small>
   <a href="EmbeddedWords.php">[Test the Script]</a>
-  <a href="ShowSourceCode.php?source_file=EmbeddedWords.php">[View Source Code]</a>
+  <a href="https://github.com/crazymalady/Chinese-Zodiac/blob/main/EmbeddedWords.php" target=_>[View Source Code]</a>
   </small>
 
   <br><br>
@@ -37,43 +37,43 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <small><b>BooksAndAuthors1.php</b>
   <a href="BooksAndAuthors1.php">[Test the Script]</a>
-  <a href="ShowSourceCode.php?source_file=EmbeddedWords.php">[View Source Code]</a>
+  <a href="https://github.com/crazymalady/Chinese-Zodiac/blob/main/BooksAndAuthors1.php" target=_>[View Source Code]</a>
   </small><br>
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <small><b>BooksAndAuthors2.php</b>
   <a href="BooksAndAuthors2.php">[Test the Script]</a>
-  <a href="ShowSourceCode.php?source_file=EmbeddedWords.php">[View Source Code]</a>
+  <a href="https://github.com/crazymalady/Chinese-Zodiac/blob/main/BooksAndAuthors2.php" target=_>[View Source Code]</a>
   </small><br>
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <small><b>FormattedText.php</b>
   <a href="FormattedText.php">[Test the Script]</a>
-  <a href="ShowSourceCode.php?source_file=EmbeddedWords.php">[View Source Code]</a>
+  <a href="https://github.com/crazymalady/Chinese-Zodiac/blob/main/FormattedText.php" target=_>[View Source Code]</a>
   </small><br>
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <small><b>MusicalScale.php</b>
   <a href="MusicalScale.php">[Test the Script]</a>
-  <a href="ShowSourceCode.php?source_file=EmbeddedWords.php">[View Source Code]</a>
+  <a href="https://github.com/crazymalady/Chinese-Zodiac/blob/main/MusicalScale.php" target=_>[View Source Code]</a>
   </small><br>
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <small><b>PHPEmail.php</b>
   <a href="PHPEmail.php">[Test the Script]</a>
-  <a href="ShowSourceCode.php?source_file=EmbeddedWords.php">[View Source Code]</a>
+  <a href="https://github.com/crazymalady/Chinese-Zodiac/blob/main/PHPEmail.php" target=_>[View Source Code]</a>
   </small><br>
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <small><b>WordPlay1.php</b>
   <a href="WordPlay1.php">[Test the Script]</a>
-  <a href="ShowSourceCode.php?source_file=EmbeddedWords.php">[View Source Code]</a>
+  <a href="https://github.com/crazymalady/Chinese-Zodiac/blob/main/WordPlay1.php" target=_>[View Source Code]</a>
   </small><br>
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <small><b>WordPlay2.php</b>
   <a href="WordPlay2.php">[Test the Script]</a>
-  <a href="ShowSourceCode.php?source_file=EmbeddedWords.php">[View Source Code]</a>
+  <a href="https://github.com/crazymalady/Chinese-Zodiac/blob/main/WordPlay2.php" target=_">[View Source Code]</a>
   </small><br>
 
 </p>
