@@ -46,7 +46,7 @@ This all-in-one Web form prompts the user to enter the twelve Chinese zodiac sig
   <br>
   <small>
   <a href="PostMessage.php">[Test the Script]</a>
-  <a href="ShowSourceCode.php?source_file=SimilarNames.php">[View Source Code]</a>
+  <a href="https://github.com/crazymalady/Chinese-Zodiac/blob/main/PostMessage.php" target=_>[View Source Code]</a>
   </small>
 
   <br><br>
@@ -55,7 +55,7 @@ This all-in-one Web form prompts the user to enter the twelve Chinese zodiac sig
   <br>
   <small>
   <a href="AlphabetizeSigns.php">[&nbsp;Test&nbsp;the&nbsp;Script&nbsp;]</a>
-  <a href="ShowSourceCode.php?source_file=AlphabetizeSigns.php">[&nbsp;View&nbsp;Source&nbsp;Code&nbsp;]</a>
+  <a href="https://github.com/crazymalady/Chinese-Zodiac/blob/main/AlphabetizeSigns.php" target=_>[&nbsp;View&nbsp;Source&nbsp;Code&nbsp;]</a>
   </small>
 
 </p>
